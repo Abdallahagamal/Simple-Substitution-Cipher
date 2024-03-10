@@ -1,0 +1,32 @@
+Algorithm Simple Substitution Cipher
+
+
+1-Input Validation for Key:  
+-Make sure the key entered by the user is of length 5 and contains unique alphabetic characters.
+-If the length is not 5 or characters are not unique, print to the user to enter the key again until it meets the requirements. 
+
+2-Building Cipher Alphabet: 
+-Declare two vectors: alphabets containing the plain alphabets and new_alphabets for the cipher alphabet. 
+-Add the characters from the key to new_alphabets to create the cipher alphabet. 
+-Add the remaining 21 unique characters to new_alphabets to complete the cipher alphabet. 
+
+3-Message Input:
+Make the user to enter the message (encryption). 
+
+4-Encoding (Encryption): 
+-Convert all characters of the message to lowercase for uniformity. 
+-For each character in the message: If the character is alphabetic, find its index in the vector alphabets. 
+Output the character from the corresponding index in the vector new_alphabets. 
+-Preserve spaces and ignore non-alphabetic characters. 
+
+5-Decoding (Decryption):  
+#Similar to encoding but reverse the roles of plain and cipher alphabets. 
+-Convert all characters of the message to lowercase for uniformity. 
+-For each character in the message: If the character is alphabetic, find its index in the vector new_alphabets. 
+Output the character from the corresponding index in the plain alphabet. 
+-Preserve spaces and ignore non-alphabetic characters. 
+
+6-Menu Handling:  
+-Provide a menu to the user with three options: Encrypting the message, Decrypting the message, or Exiting. 
+-Continuously make the user to choose a choice until they choose to exit. 
+-Choice Handling: Based on the user's choice, either perform encryption, decryption, or exit the program. Handle invalid choices by prompting the user to enter a valid choice.
