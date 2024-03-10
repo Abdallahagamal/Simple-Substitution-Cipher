@@ -17,6 +17,6 @@ Plain text : I love C plus plus
 Cipher text: f jmvo i njus njus
 
 ## Project-Notes
-#The Key letters must be unique and just 5 characters no numbers or symbols.
-#Any number or symbols in the message will be deleted in encoding.
-#You can use uppercase letters but it will convert to lowercase.
+# The Key letters must be unique and just 5 characters no numbers or symbols.
+# Any number or symbols in the message will be deleted in encoding.
+# You can use uppercase letters but it will convert to lowercase.
