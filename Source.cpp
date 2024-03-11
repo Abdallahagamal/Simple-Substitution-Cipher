@@ -1,6 +1,9 @@
 #include <iostream>
 #include <string>
 #include <vector>
+#include <limits>
+#include <algorithm>
+#include <cctype>
 using namespace std;
 int main() {
     int index = 0;
